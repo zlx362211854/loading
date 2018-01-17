@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        #container{
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+
+
+<script>
+
+var loading = new Loading();
+
+loading.init('container').start(['#5fc6b3', '#d3be87', '#e86c73']);
+
+setTimeout(function () {
+    // some ajax
+//    loading.end()
+}, 5000)
+
+</script>
+</body>
+</html>

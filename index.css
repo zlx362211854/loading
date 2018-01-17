@@ -1,0 +1,62 @@
+/** 
+ * @Author zlx
+ * @Date 2018/1/17 下午2:02
+ */
+
+.dot1{
+    display: inline-block;
+    animation:animation1 2s infinite;
+    -webkit-animation:animation1 2s infinite; /* Safari and Chrome */
+}
+.dot2{
+    display: inline-block;
+    animation:animation2 2s infinite;
+    -webkit-animation:animation2 2s infinite; /* Safari and Chrome */
+}
+.dot3{
+    display: inline-block;
+    animation:animation3 2s infinite;
+    -webkit-animation:animation3 2s infinite; /* Safari and Chrome */
+}
+@keyframes animation1
+{
+    0% {width:0px;height: 0px;border-radius: 0px;}
+    50% {width:20px;height: 20px;border-radius: 10px;}
+    100% {width:0px;height: 0px;border-radius: 0px;}
+}
+@-webkit-keyframes animation1
+{
+    0% {width:0px;height: 0px;border-radius: 0px;}
+    50% {width:20px;height: 20px;border-radius: 10px;}
+    100% {width:0px;height: 0px;border-radius: 0px;}
+}
+
+@keyframes animation2
+{
+    0% {width:10px;height: 10px;border-radius: 5px;}
+    25% {width:20px;height: 20px;border-radius: 10px;}
+    50% {width:10px;height: 10px;border-radius: 5px;}
+    75% {width:20px;height: 20px;border-radius: 10px;}
+    100% {width:10px;height: 10px;border-radius: 5px;}
+}
+@-webkit-keyframes animation2
+{
+    0% {width:10px;height: 10px;border-radius: 5px;}
+    25% {width:20px;height: 20px;border-radius: 10px;}
+    50% {width:10px;height: 10px;border-radius: 5px;}
+    75% {width:20px;height: 20px;border-radius: 10px;}
+    100% {width:10px;height: 10px;border-radius: 5px;}
+}
+
+@keyframes animation3
+{
+    0% {width:20px;height: 20px;border-radius: 10px;}
+    50% {width:0px;height: 0px;border-radius: 0px;}
+    100% {width:20px;height: 20px;border-radius: 10px;}
+}
+@-webkit-keyframes animation3
+{
+    0% {width:20px;height: 20px;border-radius: 10px;}
+    50% {width:0px;height: 0px;border-radius: 0px;}
+    100% {width:20px;height: 20px;border-radius: 10px;}
+}
